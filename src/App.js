@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import CarTableContainer from './containers/CarTableContainer';
+import SearchCar from './containers/SearchCar';
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-
-        </header>
+        <CarTableContainer />
+        <SearchCar />
       </div>
     );
   }
